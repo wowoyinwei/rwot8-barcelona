@@ -29,7 +29,7 @@ NEO-CLI-NEL的环境要求以及使用方法和原NEO-CLI一样，这里就不�
  - 发布RestoreDB工程
  - 将发布RestoreDB工程生成的.dll文件以及包含配置文件的文件夹复制到NEL_Plugins文件夹中（此时NEL_Plugins文件夹中应该有Restore.dll以及一个包含config.json文件的Restore文件夹）
  - 回到neo-cli.dll所在目录，下载同步数据包 
-  - testnet： http://nel-acc.oss-cn-hangzhou.aliyuncs.com/release.0-2400000.zip
-  - mainnet: 暂无
+    - testnet： http://nel-acc.oss-cn-hangzhou.aliyuncs.com/release.0-2400000.zip
+    - mainnet: 暂无
  - 使用dotnet neo.cli 命令启动节点，如果出现"正在导入0-1000000高度数据"则意味着正在快速恢复数据。
-  - 如果需要额外的启动项，例如--rpc --log等，使用方法和原版节点一样。
+    - 如果需要额外的启动项，例如--rpc --log等，使用方法和原版节点一样。
